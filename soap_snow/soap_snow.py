@@ -1,5 +1,6 @@
 import requests
 
+
 class SOAPSnow:
 
     def __init__(self,
@@ -69,7 +70,7 @@ class SOAPSnow:
         display_value: str = None,
         display_variables: str = None,
         allow_empty_value: str = None,
-        payload: dict = None
+        payload: dict = {}
     ):
         '''
         Posts request and returns response.
